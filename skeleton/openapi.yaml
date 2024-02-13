@@ -1,22 +1,33 @@
 ---
 openapi: 3.0.3
 info:
-  title: quarkus-app API
-  version: 1.0-SNAPSHOT
+  title: langchain4j-demo API
+  version: 1.0.0-SNAPSHOT
 servers:
 - url: http://localhost:8080
   description: Auto generated value
 - url: http://0.0.0.0:8080
   description: Auto generated value
 paths:
-  /hello:
+  /_importmap/dynamic-importmap.js:
     get:
       tags:
-      - Example Resource
+      - Importmap Resource
       responses:
         "200":
           description: OK
           content:
-            text/plain:
+            application/javascript:
+              schema:
+                type: string
+  /_importmap/dynamic.importmap:
+    get:
+      tags:
+      - Importmap Resource
+      responses:
+        "200":
+          description: OK
+          content:
+            application/importmap+json:
               schema:
                 type: string
