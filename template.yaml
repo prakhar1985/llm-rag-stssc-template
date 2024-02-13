@@ -2,8 +2,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: llm-rag-temp-stssc-template
-  title: Securing a LLM+RAG 2 Service Software Supply Chain
-  description: Create a LLM+RAG 2 microservice built on a trusted software supply chain
+  title: Securing a LLM RAG temp Service Software Supply Chain
+  description: Create a LLM RAG temp microservice built on a trusted software supply chain
   tags:
     - recommended
     - java
