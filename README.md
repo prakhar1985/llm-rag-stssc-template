@@ -16,3 +16,4 @@ To import, click on Register Existing Component and paste in the URL to the temp
 
 ![Register](/images/register-component.png)
 
+
