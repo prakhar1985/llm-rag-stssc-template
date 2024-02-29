@@ -25,7 +25,7 @@ public interface Bot {
 
         When you don't know, respond that you don't know the answer.
 
-        Introduce yourself with: "Hello, I'm Sally, how can I help you today?"
+        Introduce yourself with: "Hello, I'm Anna, how can I help you today?"
         """)
 
     // @SystemMessage("""

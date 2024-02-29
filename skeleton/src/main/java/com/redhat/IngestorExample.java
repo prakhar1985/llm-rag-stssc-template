@@ -34,9 +34,11 @@ public class IngestorExample {
     public void ingest(@Observes StartupEvent event) {
         System.out.printf("Ingesting documents...%n");
 
+        
         // List<Document> documents = FileSystemDocumentLoader.loadDocuments(new File("src/main/resources/bank").toPath(),
         // List<Document> documents = FileSystemDocumentLoader.loadDocuments(new File("src/main/resources/museum").toPath(),
-        List<Document> documents = FileSystemDocumentLoader.loadDocuments(new File("src/main/resources/halffoods").toPath(),
+        // List<Document> documents = FileSystemDocumentLoader.loadDocuments(new File("src/main/resources/halffoods").toPath(),
+        List<Document> documents = FileSystemDocumentLoader.loadDocuments(new File("src/main/resources/insurance").toPath(),
                 new TextDocumentParser());
         var ingestor = EmbeddingStoreIngestor.builder()
                 .embeddingStore(store)

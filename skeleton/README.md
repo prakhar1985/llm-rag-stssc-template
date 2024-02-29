@@ -50,6 +50,21 @@ Example questions for the Museum
 
 **what were the inspirations for Elijah Montrose?**
 
+Example questions for the grocery store
+
+**what food should I eat?**
+
+Example questions for the Insurance company
+
+**what policies do you offer?**
+
+**does the silver elite require a medical exam?**
+
+**Are high risk activities not covered by the 20-year term?**
+
+**Are high risk activities not covered by the silver elite 30-year term?**
+
+
 ## Parts
 
 **Bot.java** provides the name for the AI
