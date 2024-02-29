@@ -1,4 +1,4 @@
-# Quarkus langchain4j example
+# langchain4j-demo
 
 This example leverages a LLM + RAG (Retrieval Augmented Generation), where additional context, additional private data is loaded and is additive to the prompt provided to the LLM.
 
