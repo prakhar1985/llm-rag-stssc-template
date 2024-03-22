@@ -78,7 +78,7 @@ spec:
                   title: Image Host
                   type: string
                   description: Host for storing image
-                  default: quay-g9pgl.apps.cluster-g9pgl.sandbox1406.opentlc.com
+                  default: quay-5jljj.apps.cluster-5jljj.sandbox564.opentlc.com
                 image_organization:
                   title: Organization
                   type: string
@@ -101,9 +101,9 @@ spec:
               title: Repo Host
               type: string
               description: Your SCM host
-              default: gitlab-gitlab.apps.cluster-g9pgl.sandbox1406.opentlc.com
+              default: gitlab-gitlab.apps.cluster-5jljj.sandbox564.opentlc.com
               enum:
-                - gitlab-gitlab.apps.cluster-g9pgl.sandbox1406.opentlc.com
+                - gitlab-gitlab.apps.cluster-5jljj.sandbox564.opentlc.com
             owner:
               title: Repo Owner
               type: string
@@ -161,7 +161,7 @@ spec:
           source_repository: https://${{ parameters.repo.host }}/${{ parameters.repo.owner }}/${{parameters.component_id}}.git
           repository_name: ${{parameters.component_id}}
           git_owner: ${{ parameters.repo.owner }}
-          cluster: .apps.cluster-g9pgl.sandbox1406.opentlc.com
+          cluster: .apps.cluster-5jljj.sandbox564.opentlc.com
           namespace: ${{ parameters.component_id }}-dev
           image_registry: ${{ parameters.image_registry }}
           image_host: ${{ parameters.image_host }}
